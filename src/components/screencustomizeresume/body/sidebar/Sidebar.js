@@ -43,7 +43,7 @@ class Sidebar extends Component {
   render() {
     return (
       <div>
-        <ul className="nav" id="sidebar">
+        <ul className="nav justify-content-end">
           <ToggleButton />
 
           <div className="collapse navbar-collapse" id="collapsibleSidebar">
@@ -78,7 +78,7 @@ function DownloaSection(props) {
       <LinkDownloadPDF {...props} />
       <Modal
         id="download"
-        title="¡Gracias por usar resumebuilder.io!"
+        title="¡Gracias por usar cvbuilder!"
         body="Si te gustó, por favor compartilo. :)"
         buttonLabel="Aceptar"
       />

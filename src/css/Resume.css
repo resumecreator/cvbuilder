@@ -2,11 +2,13 @@
     width: 794px;
     height: 1123px;
     background-color: white;
-    margin-left: 60px;
 }
 
-#sidebar {
-    margin: 0px;
+#collapsibleSidebar {
+    background-color: var(--main-bg-color);
+    height: 900px;
+    border: 1px solid var(--btn-accent);
+    padding: 10px;
 }
 
 .bodyCustomize {    
